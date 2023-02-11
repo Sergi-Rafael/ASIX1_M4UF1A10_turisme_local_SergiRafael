@@ -1,0 +1,142 @@
+
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+
+
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+
+.column-55{
+    width: 55%;
+    float: left;
+}
+
+.column-25{
+    width: 25%;
+    float: left;
+}
+.column-20{
+    width: 20%;
+    float: left;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.header{
+    height: 70vh;
+    background-image: url("./img/Bandera_de_Roda_de_Berà.svg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.header h1{
+    text-align: center;
+    color: black;
+}
+
+
+
+.column-25{
+    background-color:blue;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100%;
+}
+.column-25 a{
+    text-decoration: none;
+    color: white;
+}
+.column-20{
+    background-color:BLUE;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100%;
+}
+.column-20 a{
+    text-decoration: none;
+    color: white;
+}
+.column-20 img{
+    width: 100%;
+    height: auto;
+}
+
+.column-55{
+    padding: 2%;
+    background-color:antiquewhite;
+}
+.column-55 h2{
+    text-decoration: underline;
+}
+.column-55 a{
+    text-decoration: none;
+    color: blue;
+}
+
+#cent {
+    text-align: center;
+}
